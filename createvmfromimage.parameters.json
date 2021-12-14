@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "" 
+        },
+        "adminUsername": {
+            "value": ""
+        },
+        "adminPasswordOrKey": {
+            "value": ""
+        },
+        "vmSize": {
+            "value": "Standard_D2s_v3"
+        },
+        "vmName": {
+            "value": ""
+        },
+        "SubnetName": {
+            "value": "default"
+        },
+        "virtualNetworkResourceGroup": {
+            "value": "corp-datalod20306710"
+        },
+        "virtualNetworkName": {
+            "value": "NEWVNETtemp"
+        },
+        "storageAccountName": {
+            "value": "resmovecache5d88480"
+        },
+        "storageAccountRG": {
+            "value": "ResourceMoverRG-eastus-centralus-eus2"
+        },
+        "imageRG": {
+            "value": "POWERAPP1_RG"
+        },
+        "publicIPAddressName": {
+            "value": ""
+        }
+    }
+}
